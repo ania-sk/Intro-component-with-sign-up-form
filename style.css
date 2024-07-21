@@ -1,0 +1,162 @@
+body{
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: hsla(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.content-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.section{
+    width: 50%;    
+}
+
+.left h1{
+    font-size: 2.5rem;
+    width: 85%;
+}
+
+.left p{
+    width: 90%;
+}
+
+.blue-box-heading{
+    text-align: center;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px hsla(249, 10%, 26%, 0.3);    
+}
+
+#blue-box-span{
+    font-weight: 600;
+}
+
+.singup-data-form {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px hsla(249, 10%, 26%, 0.3) ;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    position: relative;       
+}
+
+.input-form.error{
+    border: 2px solid  hsla(0, 100%, 74%);     
+}
+
+.input-form{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1.5px solid  hsl(246, 25%, 77%);
+}
+
+.submit-btn{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(154, 59%, 51%);
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: hsl(154, 59%, 51%);
+    font-weight:  600;    
+}
+
+.btn-description{
+    font-size: 0.7rem;
+    margin: 15px;    
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+
+.terms-span{
+    color: hsl(0, 100%, 74%) ;
+    font-weight: 600;
+}
+
+.hidden{
+    visibility: hidden;
+    margin: 0;    
+}
+
+.error-icon{
+    position: absolute;
+    right: 0.75rem;
+    top: 0.75rem;
+}
+
+.error-text{
+    color: hsl(0, 100%, 74%);
+    font-size: 0.6rem;
+    font-style: italic;
+    margin-left: auto;
+}
+
+
+.attribution { 
+    font-size: 0.5rem; text-align: center;     
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 580px){  
+    body{
+        background-image: url('images/bg-intro-mobile.png');
+        font-size: 12px;        
+    } 
+    
+    .content-conteiner{
+        flex-direction: column;
+        width: 100vw;        
+    }
+
+    .section{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }  
+
+    .left{
+        text-align: center;
+    }
+
+    .left h1{        
+        width: 100%;
+        font-size: 1.5rem;
+    }     
+
+    .blue-box-heading{
+        height: 3rem;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 30px;
+    }   
+
+    .btn-description{        
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;       
+    }
+}
