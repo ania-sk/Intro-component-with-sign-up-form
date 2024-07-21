@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshots
 
-![](images/screenshot.jpg)
+![](images/screenshot.JPG)
 
-![](images/screenshot-error.jpg)
+![](images/screenshot-error.JPG)
 
-![](images/screenshot-mobile.jpg)
+![](images/screenshot-mobile.JPG)
 
 ### Links
 
